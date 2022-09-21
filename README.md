@@ -12,4 +12,14 @@
 
 5. Para correr el Angular se debe abrir una terminal y ejecutar el siguiente comando **"ng serve -o"**
 
+
+## Una vez ejecutado el proyecto
+
+1. Se va ha mostrar un login 
+
+2. Al iniciar sesión se muestra un pagina en blanco que es la de "home" y un menú.
+
+3. En el menú puedes seleccionar la opcion Articulos, Facturacion, Home y ademas cuenta con un boton para hacer logOut
+
+
 Nota: el usuario por defecto es "darozga" y la contraseña "123456"
