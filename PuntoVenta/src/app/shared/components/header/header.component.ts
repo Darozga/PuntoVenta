@@ -17,8 +17,6 @@ export class HeaderComponent implements OnInit {
     
     this.authSvc.getLoginStatus().subscribe((res) =>{
       
-      console.log("AAAAAAAAAA",res)
-      
       this.isLogged = res;
     });
     this.authSvc.setLoginStatus();
