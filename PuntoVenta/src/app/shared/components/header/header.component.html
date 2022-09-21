@@ -1,0 +1,22 @@
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <a class="navbar-brand" href="" routerLink="/home">DRSolutions</a>
+
+      <div class="navbar-nav" *ngIf="isLogged">
+        <a class="nav-item nav-link" routerLink="/home" href="#">Home</a>
+        <a class="nav-item nav-link" href="" routerLink="/articulos">Articulos</a>
+        <a class="nav-item nav-link" href="" routerLink="/facturacion">Facturación</a>
+      </div>
+      
+    </div>
+    <div *ngIf="isLogged">
+    <button  class="btn btn-outline-success" (click)="onLogout()" type="button">LogOut</button>
+  </div>
+  </div>
+  </nav>
+

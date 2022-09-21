@@ -1,0 +1,12 @@
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\bin\Debug\net5.0\PuntoVenta.Entities.deps.json
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\bin\Debug\net5.0\PuntoVenta.Entities.dll
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\bin\Debug\net5.0\PuntoVenta.Entities.pdb
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.csproj.AssemblyReference.cache
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.AssemblyInfoInputs.cache
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.AssemblyInfo.cs
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.csproj.CoreCompileInputs.cache
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.dll
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\refint\PuntoVenta.Entities.dll
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\PuntoVenta.Entities.pdb
+C:\Repos\APP_LD\PuntoVentaApi\PuntoVenta.Entities\obj\Debug\net5.0\ref\PuntoVenta.Entities.dll

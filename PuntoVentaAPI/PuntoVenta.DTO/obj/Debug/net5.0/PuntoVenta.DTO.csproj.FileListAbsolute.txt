@@ -1,0 +1,12 @@
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\bin\Debug\net5.0\PuntoVenta.DTO.deps.json
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\bin\Debug\net5.0\PuntoVenta.DTO.dll
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\bin\Debug\net5.0\PuntoVenta.DTO.pdb
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.csproj.AssemblyReference.cache
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.AssemblyInfoInputs.cache
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.AssemblyInfo.cs
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.csproj.CoreCompileInputs.cache
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.dll
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\refint\PuntoVenta.DTO.dll
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\PuntoVenta.DTO.pdb
+C:\Repos\APP_LD\PuntoVentaAPI\PuntoVenta.DTO\obj\Debug\net5.0\ref\PuntoVenta.DTO.dll

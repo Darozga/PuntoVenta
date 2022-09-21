@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PuntoVenta.DataAccess\PuntoVenta.DataAccess.csproj" />
+    <ProjectReference Include="..\PuntoVenta.DTO\PuntoVenta.DTO.csproj" />
+    <ProjectReference Include="..\PuntoVenta.Entities\PuntoVenta.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

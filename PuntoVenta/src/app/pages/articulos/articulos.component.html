@@ -1,0 +1,82 @@
+<p-confirmDialog [style]="{width: '50vw'}" [baseZIndex]="10000" rejectButtonStyleClass="p-button-text"></p-confirmDialog>
+
+<p-toast ></p-toast>
+<div class="container">
+      <div class="card mt-3">
+        <div class="card-header">
+          <b>Articulos</b>
+        </div>
+        <div class="card-body">
+          <div class="container-sm">
+            <form ngNativeValidate class="row" [formGroup]="mformularioArticulo" (ngSubmit)="onGuardar()">
+                <div class="mb-3 col-9 col-md-3">
+                  <label for="codigo" class="form-label">Código</label>
+                  <input type="text" class="form-control" formControlName="codigo" id="codigo" required>
+                </div>
+                <div class="mb-3 col-9 col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" formControlName="nombre"required>
+                </div>
+                <div class=" mb-3 col-9 col-md-3">
+                  <label for="precio" class="form-label">Precio</label>
+                  <div class="input-group">
+                    <span class="input-group-text">₡</span>
+                    <input type="number" step="0.01" class="form-control" formControlName="precio" id="precio" required>
+                  </div>
+                  
+                </div>
+                <div class="mb-3 col-9 col-md-6 ">
+                  <label class="form-check-label " for="iva">Aplica IVA (13%)</label>
+                  <input type="checkbox" class="form-check-input ms-3 " formControlName="iva"id="iva">
+                </div>
+                <div class="mb-3 col-12 col-sm-12 d-grid gap-2 d-flex flex-row-reverse" >
+                  <button type="submit" class="btn btn-primary" style="width: 20vh;">Guardar</button>
+                </div>
+             
+              </form>
+            </div>
+        </div>
+        
+      </div>
+
+      <div class="card mt-2" style="margin-bottom: 100px;" >
+        <div class="card-header">
+          <b>Listado de Articulos</b> 
+        </div>
+        <div class="card-body mb">
+          <p-table [value]="listArticulos" responsiveLayout="scroll" >
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>IVA</th>
+                    <th>Total</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-articulo>
+              <tr>
+                <td>{{articulo.id}}</td>
+                <td>{{articulo.nombre}}</td>
+                <td>{{formatCurrency(articulo.precio)}}</td>
+                <td>{{articulo.iva? formatCurrency(articulo.precio * 0.13) : formatCurrency(0)}}</td>
+                <td>{{articulo.iva? formatCurrency(articulo.precio * 0.13 + articulo.precio): formatCurrency(articulo.precio)}}</td>
+                <td>
+                  <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success p-mr-2"
+                  (click)="editarArticulo(articulo)"></button>
+                </td>
+                <td>
+                  <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-danger p-mr-2"
+                  (click)="eliminarArticulo(articulo)"></button>
+                </td>
+                
+            </tr>
+            </ng-template>
+        </p-table>
+        </div>
+     
+      </div>
+</div>
+
